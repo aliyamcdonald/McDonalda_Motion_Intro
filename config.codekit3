@@ -9,13 +9,13 @@
 	],
 "creatorBuild": "32186",
 "files": {
-	"/css/styles.css": {
+	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/styles-min.css",
+		"oAP": "/deploy/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -26,6 +26,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 0
+		},
+	"/deploy/js/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/deploy/js/scripts-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/content/demo.kit": {
 		"cB": 0,
@@ -59,6 +70,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/animationSpeed.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/animationSpeed-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/demo.js": {
 		"bF": 0,
 		"ft": 64,
@@ -66,6 +88,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/demo-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/pinkBox.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/pinkBox-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -76,8 +109,30 @@
 		"ma": 0,
 		"mi": 0,
 		"oA": 0,
-		"oAP": "/js/scripts-min.js",
-		"oF": 2,
+		"oAP": "/deploy/js/scripts-min.js",
+		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/tealBox.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/tealBox-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/yellowBox.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/yellowBox-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -88,9 +143,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/base/_base.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
@@ -101,9 +156,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/base/_normalize.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
@@ -114,9 +169,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/base/_typography.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
@@ -127,9 +182,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/components/_buttons.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
@@ -140,9 +195,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/components/_forms.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
@@ -153,9 +208,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/components/_navigation.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
@@ -166,9 +221,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/helpers/_mixins.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
@@ -179,9 +234,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/helpers/_variables.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
@@ -192,9 +247,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/layout/_footer.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
@@ -205,9 +260,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/layout/_header.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
@@ -218,9 +273,9 @@
 		"ec": 1,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/scss/sections/_demo.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"sct": 1
 		},
@@ -232,21 +287,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/styles.css",
-		"oF": 2,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 3,
 		"oS": 0,
 		"sct": 1
-		},
-	"/js/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/scripts-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/node_modules": {
 		"ft": 65536,
@@ -755,7 +799,7 @@
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
-			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
 			},
 		"array-bracket-newline": {
 			"active": 0,
@@ -831,7 +875,7 @@
 			},
 		"computed-property-spacing": {
 			"active": 0,
-			"optionString": "'never'"
+			"optionString": "'never', {'enforceForClassMembers': true}"
 			},
 		"consistent-return": {
 			"active": 0,
@@ -1579,7 +1623,7 @@
 			},
 		"no-void": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowAsStatement': false}"
 			},
 		"no-warning-comments": {
 			"active": 0,
@@ -1795,7 +1839,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
+			"optionString": "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
 			},
 		"valid-jsdoc": {
 			"active": 0,
@@ -2349,7 +2393,7 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
-		"compilerType": 1,
+		"compilerType": 0,
 		"createSourceMap": 0,
 		"decimalPrecision": 10,
 		"emitCharset": 1,

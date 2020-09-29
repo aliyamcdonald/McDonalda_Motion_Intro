@@ -5153,20 +5153,44 @@
       // to protect from tree shaking
   TweenMaxWithCSS = gsapWithCSS.core.Tween;
 
-  gsapWithCSS.to(".pink-box",{duration: 3, x: 400, borderRadius: "50px" });
-  gsapWithCSS.to(".pink-box",{duration: .5, y: 400, borderRadius: "100px", delay: 1, rotation:360 });
-  gsapWithCSS.to(".pink-box",{duration: 3, x: 700, borderRadius: "50px" });
+  var boxSpeed = 1;
 
-  gsapWithCSS.from(".teal-box",{duration: 3, x: 200, y:200, borderRadius: "50px" });
-  gsapWithCSS.to(".teal-box",{duration: .5, y: 200, delay: 1, rotation:360, borderRadius: "50px"});
+  function pinkBoxAnimation(){
 
-  gsapWithCSS.to(".yellow-box",{duration: 3, x: 200, y:200, borderRadius: "50px" });
-  gsapWithCSS.to(".yellow-box",{duration: .5, y: 10, delay: 1, rotation:90 });
 
-  var Demo = /*#__PURE__*/Object.freeze({
-    __proto__: null
-  });
+      var tl = gsapWithCSS.timeline();
+      tl.to(".pink-box",{duration:boxSpeed,x:400},"startBoxes");
 
-  console.log(Demo);
+      return tl;
+  }
+
+  function tealBoxAnimation(){
+
+
+      var tl = gsapWithCSS.timeline();
+      tl.to(".teal-box",{duration:boxSpeed,x:400},"startBoxes");
+
+      return tl;
+  }
+
+  function yellowBoxAnimation(){
+
+
+      var tl = gsapWithCSS.timeline();
+      tl.to(".yellow-box",{duration:boxSpeed,x:400},"startBoxes");
+
+      return tl;
+  }
+
+  // import * as Demo from './demo.js';
+
+  // console.log(Demo);
+
+  const mainTL = gsapWithCSS.timeline({paused:true});
+
+      mainTL.add(pinkBoxAnimation())
+          .add(tealBoxAnimation())
+          .add(yellowBoxAnimation())
+          .play();
 
 }());
