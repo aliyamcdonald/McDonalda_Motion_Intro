@@ -5153,14 +5153,15 @@
       // to protect from tree shaking
   TweenMaxWithCSS = gsapWithCSS.core.Tween;
 
-  var redSpeed = 2;
-  var blueSpeed = 1.5;
+  gsapWithCSS.to(".pink-box",{duration: 3, x: 400, borderRadius: "50px" });
+  gsapWithCSS.to(".pink-box",{duration: .5, y: 400, borderRadius: "100px", delay: 1, rotation:360 });
+  gsapWithCSS.to(".pink-box",{duration: 3, x: 700, borderRadius: "50px" });
 
-  gsapWithCSS.to(".red-box",{duration: redSpeed, x: 500, borderRadius: "50px" });
-  gsapWithCSS.to(".red-box",{duration: redSpeed, y: 500, borderRadius: "100px", delay:redSpeed });
+  gsapWithCSS.from(".teal-box",{duration: 3, x: 200, y:200, borderRadius: "50px" });
+  gsapWithCSS.to(".teal-box",{duration: .5, y: 200, delay: 1, rotation:360, borderRadius: "50px"});
 
-  gsapWithCSS.from(".blue-box",{duration: blueSpeed, x: 300, y:300, borderRadius: "50px" });
-  gsapWithCSS.to(".blue-box",{duration: blueSpeed, y: 100, borderRadius: "200px", delay:blueSpeed });
+  gsapWithCSS.to(".yellow-box",{duration: 3, x: 200, y:200, borderRadius: "50px" });
+  gsapWithCSS.to(".yellow-box",{duration: .5, y: 10, delay: 1, rotation:90 });
 
   var Demo = /*#__PURE__*/Object.freeze({
     __proto__: null

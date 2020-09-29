@@ -382,10 +382,13 @@ textarea {
 .box {
   height: 200px;
   width: 200px;
-  margin-bottom: 300px; }
+  margin-bottom: 200px; }
 
-.red-box {
-  background-color: #f13232; }
+.pink-box {
+  background-color: #ffd1dc; }
 
-.blue-box {
-  background-color: #167cd0; }
+.teal-box {
+  background-color: #008080; }
+
+.yellow-box {
+  background-color: #FFFF99; }
