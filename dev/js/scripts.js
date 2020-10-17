@@ -1,3 +1,5 @@
-import * as Demo from './demo.js';
+import {gsap} from "gsap";
+import {iconAnimation} from "./demo.js"
 
-console.log(Demo);
+const mainTl = gsap.timeline();
+mainTl.add(iconAnimation());

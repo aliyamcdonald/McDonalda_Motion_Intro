@@ -17,9 +17,12 @@
 
     >div{
         grid-area: demo;
+        border: 3px solid aqua;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-       svg{
-           width: 100%;
-       }
+    
     }
 }
