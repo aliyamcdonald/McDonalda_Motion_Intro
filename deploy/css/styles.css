@@ -376,19 +376,3 @@ textarea {
 /* =============
     Footer
 ============= */
-/* =============
-    Demo
-============= */
-.box {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 200px; }
-
-.pink-box {
-  background-color: #ffd1dc; }
-
-.teal-box {
-  background-color: #008080; }
-
-.yellow-box {
-  background-color: #FFFF99; }
