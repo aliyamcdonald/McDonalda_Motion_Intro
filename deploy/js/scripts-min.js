@@ -5157,11 +5157,11 @@
       Demo
   ============= */
 
-  gsapWithCSS.set("finalbox",{transformOrigin: "center"});
+  gsapWithCSS.set("#finalbox",{transformOrigin: "center"});
 
   const iconTL = gsapWithCSS.timeline();
 
-  iconTL.from("finalbox",{duration: 0.5, scale:3, alpah:0});
+  iconTL.from("#finalbox",{duration: 2, scale:0, alpha:0});
 
   function iconAnimation(){
       return iconTL;
