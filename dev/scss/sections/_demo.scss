@@ -7,6 +7,7 @@
     grid-template-columns: auto 90% auto;
     grid-template-areas: ". demo .";
 
+
     @include md{
         grid-template-columns: auto 80% auto;
     }
@@ -17,7 +18,6 @@
 
     >div{
         grid-area: demo;
-        border: 3px solid aqua;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -25,4 +25,6 @@
 
     
     }
+
 }
+

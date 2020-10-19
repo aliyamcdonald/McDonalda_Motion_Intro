@@ -13,6 +13,8 @@ iconTL.from("#petals",{duration: 2, scale:0, alpha:0})
 iconTL.from("#petals",{rotate: 360, duration: 2})
 
 
+
+
 export function iconAnimation(){
     return iconTL;
 }
