@@ -7,6 +7,14 @@
     grid-template-columns: auto 90% auto;
     grid-template-areas: ". demo .";
 
+    .grow { 
+        transition: all .2s ease-in-out; 
+        }
+        
+        .grow:hover { 
+        transform: scale(1.1); 
+        }
+
     @include md{
         grid-template-columns: auto 80% auto;
     }
@@ -17,7 +25,6 @@
 
     >div{
         grid-area: demo;
-        border: 3px solid aqua;
         height: 100vh;
         display: flex;
         justify-content: center;

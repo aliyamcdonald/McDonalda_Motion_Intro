@@ -383,6 +383,10 @@ textarea {
   display: grid;
   grid-template-columns: auto 90% auto;
   grid-template-areas: ". demo ."; }
+  #demo .grow {
+    transition: all .2s ease-in-out; }
+  #demo .grow:hover {
+    transform: scale(1.1); }
   @media (min-width: 768px) {
     #demo {
       grid-template-columns: auto 80% auto; } }
@@ -391,7 +395,6 @@ textarea {
       grid-template-columns: auto 50% auto; } }
   #demo > div {
     grid-area: demo;
-    border: 3px solid aqua;
     height: 100vh;
     display: flex;
     justify-content: center;
